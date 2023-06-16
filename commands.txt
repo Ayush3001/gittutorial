@@ -17,3 +17,5 @@ git remote add origin(url name) url :add a link to the remote server
 git remote :gives the name of the remote if linked
 git remote -v: gives the present url's
 git push -u origin master : to push the content in the remote
+git config --global alias.st status : to create shortcuts for commands
+
