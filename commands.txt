@@ -12,3 +12,4 @@ git diff --staged : compares the staging area with the previous commit
 git commit -a -m "message" : directly commits the tracked files
 git rm filename: deletes the specific file
 git mv filename new filename : rename the file
+git rm --cached filename : untracks the file
