@@ -6,3 +6,6 @@ git log: to check the commits you have made
 git add file_name : to add a specific file
 rm -rf .git : to delete the repository
 git clone url : clone the repository
+ *.extension : add it in the gitignore to ignore all the files that have specific extension
+ git diff : tells the difference between staging area and working directory
+git diff --staged : compares the staging area with the previous commit
