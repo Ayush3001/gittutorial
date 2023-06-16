@@ -13,3 +13,7 @@ git commit -a -m "message" : directly commits the tracked files
 git rm filename: deletes the specific file
 git mv filename new filename : rename the file
 git rm --cached filename : untracks the file
+git remote add origin(url name) url :add a link to the remote server
+git remote :gives the name of the remote if linked
+git remote -v: gives the present url's
+git push -u origin master : to push the content in the remote
